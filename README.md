@@ -11,17 +11,9 @@ A sample Spring MVC Application
 ## Spring MVC Architecture
 
 <div align="center">
-    <p>
-        <a href="https://www.fullstack.cafe/?utm_source=github&utm_medium=sud">
-            <b>Having Tech Interview?</b>
-            <br> 3600 Tech Interview Questions. <b>Answered</b>.
-            <br>
-            <div>
-                <img src="" width="260" alt="FullStack.Cafe">
-            </div>
-        </a>
-        <sub><i>Proudly supporting React Interview Questions</i></sub>
-    </p>
+    <div>
+        <img src="additional/Spring-MVC-execution-flow.png" width="260" alt="FullStack.Cafe">
+    </div>
 </div>
 
 ## Steps of Development
