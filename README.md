@@ -29,3 +29,11 @@ A sample Spring MVC Application
     
     
     > The ModelAndView object also contains a message with key **“message”** and Detailed value. This is the data that we are passing to our view. Normally this will be a value object in form of java bean that will contain the data to be displayed on our view. Here we are simply passing a string.
+    
+7. Create Views/JSP files (index.jsp and welcome.jsp)
+8. Build the application 'mvn clean install'
+
+    > You will able to see all jars under **/target** folder
+   
+9. Start your application
+10. Run application on browser 'http://localhost:8080/NewSpringSample/'
