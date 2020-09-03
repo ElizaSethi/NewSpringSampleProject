@@ -12,7 +12,7 @@ A sample Spring MVC Application
 
 <div align="center">
     <div>
-        <img src="additional/Spring-MVC-execution-flow.png" width="260" alt="FullStack.Cafe">
+        <img src="additional/Spring-MVC-execution-flow.png" alt="FullStack.Cafe">
     </div>
 </div>
 
