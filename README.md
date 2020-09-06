@@ -5,7 +5,9 @@ A sample Spring MVC Application
 
 * Tomcat 9.0.37
 * Spring 5.2.3
+* Servlet 4.0
 * JDK 13
+* Maven 4.0.0
 * Eclipse 2020-06 (4.16.0)
 
 ## Spring MVC Architecture
@@ -23,8 +25,13 @@ A sample Spring MVC Application
 3. Add dependencies to pom.xml
 4. Create new Spring configuration bean NewSpringSample-servlet.xml
     > **'<context:component-scanbase-package="com.sample.controller" />'**, allow Spring to load all the components of 'com.sample.controller' package and child packages.
+    
+    
+    > Configure ViewResolver.
+    
 5. Map Spring MVC using web.xml
     > Mapping **DispatcherServlet** with url pattern '/welcome.jsp' and '/index.jsp'. After DispatcherServlet initialization, it will look for **NewSpringSample-servlet.xml** under WEB-INF.
+
 6. Create controller class
     > When Spring scans our package, it will recognize this bean as being a **Controller** bean for processing requests. The **@RequestMapping** annotation tells Spring that this Controller should process all requests beginning with /welcome in the URL path. That includes /welcome/* and /welcome.html. 
     
@@ -39,5 +46,5 @@ A sample Spring MVC Application
 
     > You will able to see all jars under **/target** folder
    
-9. Start your application
+9. Run your application on temcat serve.
 10. Run application on browser 'http://localhost:8080/NewSpringSample/'
